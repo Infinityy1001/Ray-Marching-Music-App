@@ -11,8 +11,9 @@ L'application génère une scène 3D où des objets se déforment et évoluent e
 
 . Contrôle interactif :
 
-    - Play/Stop : L'utilisateur peut démarrer ou arrêter la lecture audio.
-    . Microphone : L'utilisateur peut activer ou désactiver le microphone pour utiliser le son environnant au lieu de la musique pré-enregistrée.
+- Play/Stop : L'utilisateur peut démarrer ou arrêter la lecture audio.
+
+- Microphone : L'utilisateur peut activer ou désactiver le microphone pour utiliser le son environnant au lieu de la musique pré-enregistrée.
 
 . Réactivité à l'audio : 
 
@@ -24,8 +25,13 @@ Des boutons permettent à l'utilisateur de contrôler l'état de la musique et d
 
 ## Prérequis
 
-. Navigateurs : L'application fonctionne dans les navigateurs modernes prenant en charge WebGL.
-. Microphone : Si vous souhaitez utiliser le microphone pour l'entrée audio, il doit être activé dans votre navigateur.
+. Navigateurs : 
+
+L'application fonctionne dans les navigateurs modernes prenant en charge WebGL.
+
+. Microphone : 
+
+Si vous souhaitez utiliser le microphone pour l'entrée audio, il doit être activé dans votre navigateur.
 
 ## Installation
 
