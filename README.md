@@ -6,15 +6,21 @@ Cette application réagit à la musique ou au son capté par un microphone en te
 
 ## Fonctionnalités 
 
-. Visualisation audio en temps réel : L'application génère une scène 3D où des objets se déforment et évoluent en fonction du son (musique ou microphone).
+. Visualisation audio en temps réel : 
+L'application génère une scène 3D où des objets se déforment et évoluent en fonction du son (musique ou microphone).
 
 . Contrôle interactif :
 
-    . Play/Stop : L'utilisateur peut démarrer ou arrêter la lecture audio.
+    - Play/Stop : L'utilisateur peut démarrer ou arrêter la lecture audio.
     . Microphone : L'utilisateur peut activer ou désactiver le microphone pour utiliser le son environnant au lieu de la musique pré-enregistrée.
 
-. Réactivité à l'audio : Les objets dans la scène réagissent à l'amplitude audio captée, avec une animation dynamique qui dépend de l'intensité sonore.
-. Interface utilisateur : Des boutons permettent à l'utilisateur de contrôler l'état de la musique et du microphone.
+. Réactivité à l'audio : 
+
+Les objets dans la scène réagissent à l'amplitude audio captée, avec une animation dynamique qui dépend de l'intensité sonore.
+
+. Interface utilisateur : 
+
+Des boutons permettent à l'utilisateur de contrôler l'état de la musique et du microphone.
 
 ## Prérequis
 
@@ -26,7 +32,8 @@ Cette application réagit à la musique ou au son capté par un microphone en te
 1. Clonez ce depot :
 
 ```
-git clone https://github.com/votre-utilisateur/votre-depot.git
+git clone https://github.com/Infinityy1001/Ray-Marching-Music-App.git
+
 ```
 
 2. Installez les dépendances :
