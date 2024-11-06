@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  scroll-behavior: none;
+}
+
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn-group {
+  z-index: 999999;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+canvas {
+  display: block;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

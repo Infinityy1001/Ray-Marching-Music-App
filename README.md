@@ -39,7 +39,6 @@ Si vous souhaitez utiliser le microphone pour l'entrée audio, il doit être act
 
 ```
 git clone https://github.com/Infinityy1001/Ray-Marching-Music-App.git
-
 ```
 
 2. Installez les dépendances :

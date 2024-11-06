@@ -1,0 +1,53 @@
+/* Réinitialisation des marges et des paddings, et définition de la police */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Désactive le défilement fluide sur la page */
+body {
+    scroll-behavior: none;
+}
+
+/* Le conteneur prend toute la taille de l'écran */
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Positionnement du groupe de boutons en bas au centre */
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    gap: 12px;
+    transform: translateX(-50%);
+}
+
+/* S'assure que le canvas prend toute la taille disponible sans marges */
+canvas {
+    display: block;
+}
+
+/* Style des boutons */
+button {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+/* Style des boutons désactivés */
+button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
